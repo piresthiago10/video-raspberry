@@ -1,0 +1,36 @@
+{
+    
+    "record": {
+        "quality": 20,
+        "width": 448,
+        "height": 256,
+        "detection_based": false,
+        "detection_port": 0,
+        "detection_threshold": 300,
+        "record_port": 1,
+        "duration": 60,
+        "framerate": 10,
+        "cam_flip": true,
+        "frame_path": "/media/frames",
+        "video_path": "media/dados/camera1/videos",
+        "video_name": "%Y%m%d%H%M%S.mp4",
+        "packing_interval": 30,
+        "company": "Normandy",
+        "car": "12727",
+        "cam_id": 1
+    },
+
+    "stream": {
+        "width": 480,
+        "height": 320,
+        "stream_port": 3,
+        "host_port": 8081,
+        "ip": ""
+    },
+
+    "log": {
+        "level": "DEBUG",
+        "log_path": "media/dados/camera1/log",
+        "log_name": "sectrans_capture-%Y%m%d.log"
+    }
+}
